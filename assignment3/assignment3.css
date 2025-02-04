@@ -1,0 +1,33 @@
+h1 {
+    color: green;
+    
+}
+h2 {
+    color: red;
+    
+}
+h3 {
+    color: blue;
+}
+#divexample { 
+    background-color: #0000ff;
+}
+#footer {
+    color: purple;
+}
+.turnred {
+    color: red;
+ }
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    color:green;
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
