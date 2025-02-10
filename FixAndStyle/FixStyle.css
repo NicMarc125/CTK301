@@ -1,0 +1,55 @@
+h1{
+    color:aliceblue;
+    background-color: rgb(179, 135, 250);
+}
+div{
+    background-color: rgb(179, 135, 250);
+}
+.para1 {
+    background-color: rgb(179, 135, 250);
+}
+a {
+    color:green;
+    text-decoration: none;
+}
+
+a:hover {
+    color:red;
+    text-decoration: underline;
+}
+
+h2{ 
+    color: blue;
+}
+
+span{
+    color: orange;
+    
+}
+
+h3{ 
+    background-color: yellow;
+}
+
+.para3{
+    color: red;
+}
+
+.header3{
+    color: yellow;
+    background: green;
+}
+
+.para4{
+    background-color: lightgreen;
+}
+
+h5{
+    color: red;
+}
+.lastone{
+    background-color: yellow;
+}
+.doctor{
+    color: blue;
+}
