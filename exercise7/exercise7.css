@@ -1,0 +1,113 @@
+body{
+    background-image:url(a62.png);
+}
+
+.wrapper {
+    width: 980px;
+    border: 5px solid #000000;
+    margin: 1em auto;
+    background-color:white;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+  }
+  .wrapper2 {
+    background-color:white;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+  }
+
+  .floatimg{
+    float: right;
+    padding: 20px;
+    width: 450px;
+    margin: 10px;
+   }
+
+  main {
+    grid-column: span 12;
+    margin: 5px;
+  }
+
+h1{
+    font-family: helvetica;
+    font-weight: normal;
+    color: #ffffff;
+    border: 15px solid #000000;
+    background-color: #000000;
+    grid-column: span 12;
+    padding: 10px;
+    margin: 0;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-bottom: 3px solid #000000;
+    
+}
+.Thefirstone{
+    grid-column: span 9;
+  }
+
+  .Thesecondone{
+    grid-column: span 3;
+    background-color: #960000;
+    
+  }
+
+#wrapper {
+    width: 980px;
+    border: 5px solid #000000;
+    margin: 1em auto;
+    background-color:white;
+    display: grid;
+  }
+
+nav {
+    grid-column: span 12;
+  }
+
+nav ul{
+  margin: 0px;
+  padding: 0px;
+}
+
+nav li {
+    text-align: center;
+    border: 1px solid #000000;
+    padding: 0px;
+    margin: 10px;
+    width: 200px;
+    background-color: #ff0000;
+    color: white;
+    display: inline-block;
+  }
+
+  nav li a {
+    display: block;
+  background-color: red;
+  border: 1px solid black;
+  padding: 1em;
+  color: white;
+  text-decoration: none;
+  }
+  
+  nav li a:hover{
+    background-color:#960000 
+  }
+
+  
+
+  footer{
+    grid-column: span 12;
+    clear: both;
+    font: verdana;
+    font-weight: bold;
+    color: white;
+    border-top: 4px solid #000000;
+    background-color: #ff0000;
+    padding: 10px;
+  }
