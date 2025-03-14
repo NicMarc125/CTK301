@@ -1,0 +1,154 @@
+body{
+    background-color: grey;
+  }
+  
+  .wrapper {
+    width: 980px;
+    border: 5px solid rgb(10, 56, 120);
+    margin: 1em auto;
+    background-color:white;
+    display: grid;
+    grid-template-columns: repeat(12fr 1fr);
+    grid-column-gap: 1em;
+  }
+  
+  .wrapper2 {
+    background-color:white;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    margin: 0px;
+  }
+  
+  main {
+    margin: 5px;
+    grid-column: span 2;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 1em;
+    display: grid;
+  }
+  
+  h1{
+    font-family: helvetica;
+    font-weight: normal;
+    color: #a0c3ff;
+    background-image: linear-gradient(rgb(29, 123, 255),rgb(10, 56, 120));
+    grid-column: span 2;
+    padding: 25px;
+    margin: 0px;
+    font-style: italic;
+  }
+  
+  h1 a{
+    color: #a0c3ff;
+    text-decoration: none;
+    grid-column: span 2;
+  }
+  
+  h1 a:hover{
+    color: #b5cefa;
+  }
+  
+  
+  
+  
+  h2{
+    font-family: helvetica;
+    font-weight: normal;
+    color: rgb(10, 56, 120);
+    border-bottom: 3px solid rgb(10, 56, 120);
+  }
+  
+  nav {
+    grid-column: span 2;
+    background-image: linear-gradient(rgb(29, 123, 255),rgb(10, 56, 120));
+    margin: 0px;
+    font-family:helvetica;
+    font-weight: bold;
+  }
+  
+  nav ul{
+  margin: 0px;
+  padding: 0px;
+  }
+  
+  nav li {
+    padding: 0px;
+    margin: 0px;
+    width: 240px;
+    background-image: linear-gradient(rgb(29, 123, 255),rgb(10, 56, 120));
+    display: inline-block;
+    grid-column: span 12;
+  }
+  
+  nav li a {
+    display: block;
+  background-image: linear-gradient(rgb(29, 123, 255),rgb(10, 56, 120));
+  border-right: 5px solid rgb(10, 56, 120);
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  margin:0px;
+  }
+  
+  nav li a:hover{
+    background-image: linear-gradient(rgb(10, 56, 120),rgb(29, 123, 255));
+  }
+  
+  
+  .floatimg1{
+    float: left;
+    border: 5px solid rgb(10, 56, 120);
+    width: 250px;
+    margin: 20px;
+    padding: 5px;
+   }
+
+   .floatimg2{
+    float: left;
+    border: 5px solid rgb(10, 56, 120);
+    width: 250px;
+    margin: 20px;
+    padding: 5px;
+   }
+
+   .floatimg3{
+    float: right;
+    border: 5px solid rgb(10, 56, 120);
+    width: 250px;
+    margin: 20px;
+    padding: 5px;
+   }
+  
+   main a {
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+  }
+  main a:hover{
+    text-decoration: underline;
+    color: rgb(34, 0, 255);
+  }
+
+  .Carmy{
+    grid-column: span 1;
+  }
+
+  .Sydney1{
+    grid-column: span 1;
+  }
+
+  aside{
+    grid-column: span 1;
+  }
+  
+  footer{
+    grid-column: span 2;
+    clear: both;
+    font: verdana;
+    font-weight: bold;
+    color: white;
+    border-top:  5px solid rgb(10, 56, 120);
+    background-color: #ff0000;
+    padding: 0px;
+    margin: 0px; 
+  }
