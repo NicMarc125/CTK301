@@ -1,0 +1,129 @@
+body {
+    background-color: #000000;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration-color: aliceblue;
+  }
+  
+  #wrapper {
+    margin: 24px auto;
+    width: 1200px;
+    border: 1px solid black;
+    padding: 24px;
+    background-color: #000000;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 24px;
+  }
+  
+  h1{
+    grid-column: span 12;
+    color: rgb(255, 255, 255);
+    background-image:linear-gradient(rgb(10, 120, 12),rgb(29, 255, 70));
+    padding: 24px;
+    text-align:center;
+    border-radius: 10px;
+    text-shadow: 3px 3px 3px #000; /* x, y, blur, color */
+  }
+  
+  h1 a{
+    color: white;
+    font-size: 40px;
+  }
+  
+  h1 a:hover{
+    color: rgb(122, 238, 132);
+    font-size: 40px;
+  }
+  
+
+  .headshot{
+    width: 100%;
+    grid-column: span 2;
+    border-radius: 10px;
+  }
+  
+  
+  .gallery{
+    width: 120%;
+  }
+  
+  .first{
+    grid-column: 3/4;
+  }
+  
+  
+  nav {
+    grid-row: 3/4;
+    grid-column: span 12;
+    background-image: linear-gradient(rgb(37, 255, 29),rgb(10, 120, 14));
+    margin: 0px;
+    font-family:helvetica;
+    font-weight: bold;
+  }
+  
+  nav ul{
+  margin: 0px;
+  padding: 0px;
+  }
+  
+  nav li {
+    padding: 0px;
+    margin: 0px;
+    width: 296px;
+    background-image:#2b007a;
+    display: inline-block;
+    grid-column: span 12;
+  }
+  
+  nav li a {
+    display: block;
+  background-image: #047a00;
+  border-right: 5px solid #0a7a00;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  margin:0px;
+  }
+  
+  nav li a:hover{
+    background-image: linear-gradient(rgb(15, 120, 10),rgb(29, 255, 33));
+  }
+  
+  
+  
+  main{
+    grid-row: 4/5;
+    grid-column: span 12;
+    color: aliceblue;
+  }
+  
+  h2{
+    grid-column: span 12;
+    color: #007a02;
+    padding: 0px;
+    text-align:center;
+    font-size: 60px; 
+  
+  }
+  
+  footer{
+    grid-column: span 12;
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(rgb(29, 255, 44),rgb(25, 120, 10));
+    padding: 0 24px;
+    font-size: 1.5rem;
+    text-align: right;
+  }
+  
+  footer a{
+    color: white;
+    font-size: 40px;
+  }
+  
+  footer a:hover{
+    color: rgb(235, 136, 235);
+    font-size: 40px;
+  }
