@@ -107,7 +107,31 @@ body {
     font-size: 60px; 
   
   }
+
+  .Bigbad{
+    width: 330px;
+    margin: 5px;
+    grid-column: span 3;
+  }
+ 
+  .Claws{
+    width: 330px;
+    margin: 5px;
+    grid-column: span 3;
+  }
+
+  .Alien{
+    width: 330px;
+    margin: 5px;
+    grid-column: span 3;
+  }
   
+  .Hart{
+    width: 330px;
+    margin: 5px;
+    grid-column: span 3;
+  }
+
   footer{
     grid-column: span 12;
     color: white;
